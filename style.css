@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url(img/argc.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  
+}
+header{
+  color: rgb(19, 126, 213);
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1.5%;
+  border-radius: 10px;
+  text-align: center;
+}
+nav {
+  width: 100%;
+  margin: auto;
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0,0,0,0.7);
+}
+
+.logosite {
+  width: 15%;
+  cursor: pointer;
+  margin-left: 15%;
+}
+
+nav ul {
+  display: flex;
+  font-size: 60px;
+  justify-content: space-around;
+  margin-right: 10%;
+  
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  transition: 0.3s;
+  font-family:  "Kalam", cursive;
+}
+
+nav ul li a:hover {
+  background-color: rgb(255, 195, 11);
+  color: black;
+  padding: 25px;
+}
+
+.sizeimg{
+  width: 35%;
+  cursor: pointer;
+}
+
+footer{
+  background-color: rgba(0,0,0,0.5);
+  padding: 3%;
+}
+.match{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+}
+.copa{
+  padding: 40px;
+  font-size: 60px;
+  text-align: start;
+  margin:40px;
+  color: white;
+}
+.date{
+  padding: 25px;
+  font-size: 55px;
+  text-align: center;
+  margin: 30px;
+  color:white
+}
+.stad{
+  margin-top: 150px;
+padding: 50px;
+border: 2px solid rgba(132, 131, 131, 0.3);
+font-size: 45px;
+color: white;
+}
+.comp{
+  background-color: rgba(132, 131, 131, 0.3);
+  opacity: 0;
+}
+.hour{
+  margin-top: 50px;
+  font-size: 90px;
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+footer p {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family:"Kalam", cursive;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer .social-media a {
+  margin-top: 80px;
+}
+
+footer .social-media img {
+  width: 110px;
+  vertical-align: middle;
+  padding-bottom: 20px;
+}
+.button1{
+  font-size: 100px;
+  font-family: "Kalam", cursive;
+  background: url(img/wc.jpeg);
+  color: transparent;
+  background-clip: text;
+  cursor: pointer;
+  margin: 20px;
+  border-radius: 30px;
+  padding: 40px;
+  transition: 0.3s;
+}
+.button2{
+  font-size: 100px;
+  font-family: "Kalam", cursive;
+  background: url(img/wc.jpeg);
+  color: transparent;
+  background-clip: text;
+  cursor: pointer;
+  margin: 20px;
+  margin-bottom: 40px;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.button1:hover, .button2:hover {
+  background: url(img/gold.jpeg);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  transition: 0.3s;
+}
+.nextmat{
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+section{
+  display: grid;
+  grid-row-gap: 40px;
+}
+.secondsec{
+  text-align: center;
+  display: grid;
+  grid-template-rows: 10% 90%;
+}
+.buy{
+  align-items: center;
+}
+.tswera{
+  width: 25%;
+  height: 70%;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.nextmat1{
+  margin: 60px;
+}
+.tswera:hover{
+  width: 28%;
+  height: 70%;
+  transition: 0.3s;
+}
+.titlesite{
+  background: url(img/gold.jpeg);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  font-size: 110px;
+  font-family: "Kalam", cursive;
+}
+
+fieldset{
+  margin: 200px;
+  width: 80%;
+  height: 50%;
+}
+
+#reserver {
+    margin-top: 150px;
+}
+
+
+#reservationForm {
+    text-align: center;
+    margin-top: 250px;
+    font-family: "Kalam", cursive;
+    color: rgb(174, 174, 154);
+}
+
+label {
+    font-size: 64px;
+    font-family: "Kalam", cursive;
+}
+
+select,
+#ticketNumber{
+    padding: 60px;
+    font-size: 56px;
+    border-radius: 35px;
+    border: 7px solid #ccc;
+    width: 100%;
+    max-width: 40%;
+}
+.reserveticket{
+  opacity: 0;
+}
+
+#reservation{
+    padding: 40px 100px;
+    font-size: 64px;
+    background-color: #0050c9;
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: "Kalam", cursive;
+    transition: background-color 0.3s ease;
+}
+
+#reservation:hover {
+    background-color: #051fb0;
+}
+
